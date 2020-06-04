@@ -9,7 +9,7 @@
   ::-webkit-scrollbar-thumb {
     background: rgba(255, 255, 255, 0.452); 
     border-radius: 2px;
-    height: 20px;
+
   }
   
   /* Handle on hover */
@@ -102,6 +102,7 @@ input:focus
 
 #msgarea li
 {   
+
     padding-right: 0%;
     width: 100%;
     margin-top: 10px;
@@ -112,17 +113,19 @@ input:focus
 {
     border-radius: 5px;
     min-height: 5%;
-    padding-left: 5px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding: 5px 5px 5px 5px;
+    margin-top: 5px;
+    min-width: 20%;
 }
 #msgarea #not_mine
 {  
+    float:left;
     margin-right: 50%;
     background-color: rgba(231, 227, 227, 0.651);
 }
 #msgarea #mine
 {
+    float: right;
     margin-left:50%; 
     background-color: rgba(116, 213, 238, 0.651);
 }
